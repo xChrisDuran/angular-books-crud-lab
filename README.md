@@ -6,7 +6,7 @@ Location: SF
 
 # Angular Book App
 
-
+![Beauty and the Beast gif](https://camo.githubusercontent.com/be499bc7145dcf2442b7b0b2cff5558a2ab14b18/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6f465069506771776f663450652f67697068792e676966)
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
 *After this training, developers will be able to:*
