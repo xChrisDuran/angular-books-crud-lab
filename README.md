@@ -16,7 +16,7 @@ Location: SF
 - practice routing in Angular using `ngRoute`.
 
 
-Deliberate practice is a really effective way to build skills. You've learned about a lot of key pieces of an Angular app, and now it's time to put those pieces together.  You'll be expected to be able to build an Angular app from scratch.
+Deliberate practice is a really effective way to build skills. You've learned about a lot of key pieces of an Angular app, and now it's time to put those pieces together, again.  You'll be expected to be able to build an Angular app from scratch.
 
 ### Overview
 
@@ -24,7 +24,7 @@ In this lab, you'll be creating a simple library app to keep track of books.
 
 When a user goes to `/`, they should see a list of all of the books in the API. When a user goes to `/books/:id`, they should see a single book. On the `/books/:id` page, a user should be able to edit or delete a book.
 
-Your data (a list of books) is available at `https://super-crud.herokuapp.com/books`. You and your classmates will all be working with the shared API; keep that in mind as you make changes.  If there are no books left or far too many books, feel free to reset the database by clicking [the reset button](http://super-crud.herokuapp.com/reset). Don't do this without warning your colleagues, though. They might be puzzled why their newly created book resources aren't appearing in the database.
+Your data (a list of books) is available at `https://super-crud.herokuapp.com/books`. You and your classmates will all be working with the shared API; keep that in mind as you make changes.  If there are no books left or far too many books, feel free to reset the database by clicking [the reset button](http://super-crud.herokuapp.com/reset). Don't do this without warning your classmates over Slack, though. They might be puzzled why their newly created book resources aren't appearing in the database.
 
 ### Expectations
 
@@ -43,11 +43,9 @@ Your finished product will:
 
 ### This Repo's Structure
 
-There are three branches in this repo that you might want to pay attention to: `master`, `skeleton`, and `solutions`.
+There are three branches in this repo that you might want to pay attention to: `master`and `solutions`.
 
-The `master` branch has these instructions, with no starter code.
-
-The `skeleton` branch has the basic parts of the app set up, with some comments to help you as you build out the project. Refer to this branch if you're having trouble setting up your angular app, or if you want relatively spoiler-free hints on how to approach the project. (If you run it as is, you will see errors!)
+The `master` branch has these instructions, with no starter code. As you start building, you'll want to reference your previous Angular projects to make sure you're setting up your app correctly.
 
 The `solutions` branch has a fully built-out application that meets all the expectations above. Reference it if you're really stuck, but remember you may have your app set up differently!
 
@@ -67,7 +65,7 @@ The `solutions` branch has a fully built-out application that meets all the expe
 * Once you add client-side routing,  Angular will need to be served from a server. Make sure you're running `budo`, and that the URL you're looking at starts with `localhost`, NOT `file://`.
 * The books api is set up with RESTful routes, so follow RESTful routing conventions.  You can test endpoints with Postman or cURL, or by setting up a simple request to trigger them.
 * Look at (`console.log`) the data you get back from each `$http` request!
-* <details><summary>Click for a hint on how to change the page url from within a controller.</summary>
+* <details><summary>Click for a hint on how to change the page url from within a controller. (You don't necessarily need to do this, depending on your solution.)</summary>
     Inject the [`$location`](https://docs.angularjs.org/api/ng/service/$location) service, and use its `path` method.
 
     * <details><summary>click for example</summary>  
@@ -81,7 +79,7 @@ The `solutions` branch has a fully built-out application that meets all the expe
   </details>
 
 * <details><summary>Click for a hint on the format of template URLs when using local HTML files.</summary>
-    Give the full file name: `templates/goats-show.html`.
+    Give the full file name: `/templates/goats-show.html`.
   </details>
 
 ### Stretch Challenges
