@@ -65,7 +65,7 @@ The `solutions` branch has a fully built-out application that meets all the expe
 * Once you add client-side routing,  Angular will need to be served from a server. Make sure you're running `budo`, and that the URL you're looking at starts with `localhost`, NOT `file://`.
 * The books api is set up with RESTful routes, so follow RESTful routing conventions.  You can test endpoints with Postman or cURL, or by setting up a simple request to trigger them.
 * Look at (`console.log`) the data you get back from each `$http` request!
-* <details><summary>Click for a hint on what your directory structure should look like. (It's okay if it's not exactly like this, but this is a structure that makes a lot of sense.)</summary>
+<details><summary>Click for a hint on what your directory structure should look like. (It's okay if it's not exactly like this, but this is a structure that makes a lot of sense.)</summary>
 ```
 .
 ├── README.md
@@ -85,7 +85,7 @@ The `solutions` branch has a fully built-out application that meets all the expe
     └── books-show.html
 ```
 </details>
-* <details><summary>Click for a hint on how to change the page url from within a controller. (You don't necessarily need to do this, depending on your solution.)</summary>
+<details><summary>Click for a hint on how to change the page url from within a controller. (You don't necessarily need to do this, depending on your solution.)</summary>
     Inject the [`$location`](https://docs.angularjs.org/api/ng/service/$location) service, and use its `path` method.
 
     * <details><summary>click for example</summary>  
@@ -98,7 +98,7 @@ The `solutions` branch has a fully built-out application that meets all the expe
 
   </details>
 
-* <details><summary>Click for a hint on the format of template URLs when using local HTML files.</summary>
+<details><summary>Click for a hint on the format of template URLs when using local HTML files.</summary>
     Give the full file name: `/templates/goats-show.html`.
   </details>
 
