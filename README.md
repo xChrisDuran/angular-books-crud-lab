@@ -104,6 +104,6 @@ Here is a hint on the format of template URLs when using local HTML files.
   
 
 ### Stretch Challenges
-1. **Push this to Amazon AWS and monetize traffic to make millions of dollars.
+1. **Push** this to Amazon AWS and monetize traffic to make millions of dollars.
 2. **Allow the user to edit the book image:** allow the user to change the URL for the book image.
 3. **Add filters to organize the books index page:** add a search bar to filter the books by your search, or buttons to sort them alphabetically by author name or book title.
