@@ -68,7 +68,8 @@ The `solutions` branch has a fully built-out application that meets all the expe
 
 ### Hints
 
-<details><summary>Click for a hint on what your directory structure should look like. (It's okay if it's not exactly like this, but this is a structure that makes a lot of sense.)</summary>
+This is what your directory structure should look like. (It's okay if it's not exactly like this, but this is a structure that makes a lot of sense.)
+
 ```
 .
 ├── README.md
@@ -87,25 +88,22 @@ The `solutions` branch has a fully built-out application that meets all the expe
     ├── books-index.html
     └── books-show.html
 ```
-</details>
-<details><summary>Click for a hint on how to change the page url from within a controller. (You don't necessarily need to do this, depending on your solution.)</summary>
-    Inject the [`$location`](https://docs.angularjs.org/api/ng/service/$location) service, and use its `path` method.
 
-    * <details><summary>click for example</summary>  
+Here's a hint on how to change the page url from within a controller. (You don't necessarily need to do this, depending on your solution.)
 
-      ```js  
-      // inside GoatsShowController, we want to send the user back to goats index (home page) automatically
-      $location.path('/');
-      ```
-      </details>
+Inject the [`$location`](https://docs.angularjs.org/api/ng/service/$location) service, and use its `path` method.
 
-  </details>
+```js  
+// inside GoatsShowController, we want to send the user back to goats index (home page) automatically
+$location.path('/');
+```
+     
 
-<details><summary>Click for a hint on the format of template URLs when using local HTML files.</summary>
+Here is a hint on the format of template URLs when using local HTML files.
     Give the full file name: `/templates/goats-show.html`.
-  </details>
+  
 
 ### Stretch Challenges
-
+1. **Push this to Amazon AWS and monetize traffic to make millions of dollars.
 2. **Allow the user to edit the book image:** allow the user to change the URL for the book image.
 3. **Add filters to organize the books index page:** add a search bar to filter the books by your search, or buttons to sort them alphabetically by author name or book title.
